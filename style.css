@@ -1,0 +1,111 @@
+/* Fuente moderna y elegante */
+/* Fuente moderna y atractiva */
+body {
+    font-family: 'Montserrat', sans-serif; /* Google Font elegante */
+}
+
+/* Link to Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+/* Colores de la cabecera */
+.cabecera_contenedor {
+    background-color: #1a1a1a; /* Fondo oscuro */
+}
+
+.cabecera_lista li a {
+    color: #f9f9f9; /* Texto claro */
+}
+
+/* Colores de la sección de habilidades */
+.titulo_habilidades {
+    color: #2980b9; /* Azul vibrante */
+}
+
+.lista_habilidades .lista1 {
+    color: #333333; /* Texto oscuro */
+}
+
+/* Colores de la sección de hobbies */
+.titulo_hobbies {
+    color: #8e44ad; /* Púrpura vibrante */
+}
+
+.lista_hobbies .lista2 {
+    color: #333333; /* Texto oscuro */
+}
+
+/* Colores de la sección de formación */
+.titulo_habilidades {
+    color: #27ae60; /* Verde vibrante */
+}
+
+.bachillerato, .educacion_superior, .alura {
+    color: #333333; /* Texto oscuro */
+}
+
+/* Colores de la sección de proyectos */
+.titulo_proyectos {
+    color: #c0392b; /* Rojo vibrante */
+}
+
+.proyecto .titulo_proyecto {
+    color: #333333; /* Texto oscuro */
+}
+
+/* Colores del footer */
+.footer_contenedor {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #f9f9f9; /* Texto claro */
+}
+.mi_nombre{
+    color:white
+}
+
+/* Link to Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Estilos del formulario */
+.formulario {
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; /* Fuente elegante */
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333; /* Texto oscuro */
+}
+
+.formulario input[type="text"], .formulario input[type="email"], .formulario input[type="tel"], .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc; /* Borde gris claro */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; /* Fuente elegante */
+    font-size: 14px;
+}
+
+.formulario button {
+    background-color: #2980b9; /* Azul vibrante */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif; /* Fuente elegante */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #1a5981; /* Azul más oscuro en hover */
+}
